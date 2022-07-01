@@ -10,7 +10,7 @@
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 50px 0 20px;
+  padding: 20px 0 20px;
 }
 
 .top-cloud {
@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-size: 5.625rem;
+  font-size: 7rem;
   margin: 3rem auto 0 auto;
   font-family: "Sacramento", cursive;
   color: #66bfbf;
@@ -41,7 +41,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   font-weight: normal;
   color: #66bfbf;
   padding-bottom: 10px;
@@ -50,6 +50,11 @@ h2 {
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #11999e;
+  font-size: 2.5rem;
+}
+
+.introduction{
+  font-size: 1.25rem;
 }
 
 a {
@@ -63,12 +68,18 @@ a:hover {
   color: #eaf6f6;
 }
 
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
 a.cert-list:hover {
   color: #f6d0d0;
 }
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
@@ -86,17 +97,13 @@ a.cert-list:hover {
 
 .photo-description {
   color: #40514e;
+  font-size: 1.5rem;
 }
 
 p {
   line-height: 2;
 }
 
-.copyright {
-  color: #eaf6f6;
-  font-size: 0.75rem;
-  padding: 20px 0px;
-}
 
 hr {
   border: dotted #eaf6f6 6px;
@@ -109,6 +116,7 @@ div .contact-message {
   width: 33%;
   margin: 55px auto 60px;
   line-height: 2;
+  font-size: 1.25rem;
 }
 
 .btn {
@@ -148,13 +156,18 @@ div .contact-message {
 ul.programming-language-list-item {
   margin-left: 16.8rem;
   color: red;
+  font-size: 1.25rem;
 }
 
 .cert-list {
   color: red;
+  margin: 0px;
+  width: 90%;
+  font-size: 1.25rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
+
   .middle-container {
     margin: 0px;
   }
@@ -177,36 +190,48 @@ ul.programming-language-list-item {
   h3 {
     margin: 0px;
     font-size: 2rem;
+    text-align: center;
+  }
+
+  .introduction{
+    font-size: 1.25rem;
+    text-align: center;
   }
 
   ul.programming-language-list-item {
     color: red;
     margin: 0px;
-    width: 100%;
+    font-size: 1.25rem;
+    /* width: 100%; */
+  }
+
+  .skill-row {
+    width: 90%;
+    margin: 5rem auto 5rem auto;
+    text-align: left;
+    line-height: 2;
   }
 
   .light-bulb-img {
     padding-bottom: 20px;
+    padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
     float: none;
-    width: 90%;
-  }
-
-  p.introduction {
-    text-align: center;
+    width: 100%;
   }
 
   .quality-img {
     float: none;
     margin-left: 0px;
     margin-right: 0px;
-    width: 90%;
+    width: 100%;
   }
 
   .cert-list {
     margin: 0px;
-    width: 100%;
+    width: 90%;
+    font-size: 1.25rem;
   }
 
   .internal-cert {
@@ -234,7 +259,7 @@ ul.programming-language-list-item {
 
   #myPhoto {
     width: 70%;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .photo-description {
@@ -242,21 +267,53 @@ ul.programming-language-list-item {
     margin-bottom: 0;
   }
 
-  .contact-message {
-    width: 100%;
-  }
-
   div .contact-message {
-    width: 100%;
-    margin: 25px auto 30px;
+    width: 90%;
+    margin: 20px auto 20px;
     line-height: 1.5;
+    font-size: 1.25rem;
   }
 
-  .btn {
-    margin-bottom: 30px;
-  }
 
   .bottom-container {
-    height: 0.5%;
+    max-height: 90px;
+    padding: 5px;
+  }
+
+
+  #engineer{
+    margin-left: 1rem;
+    font-size: 2rem;
+    width: 95%;
+    text-align: center;
+  }
+
+  hr {
+    width: 15%;
+    margin: 80px auto;
+  }
+
+  .btn{
+    margin-bottom: 50px;;
+  }
+
+  a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 20px;
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.85rem;
+    padding: 5px 0px;
+  }
+
+  .email{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
