@@ -146,7 +146,7 @@ div .contact-message {
 }
 
 ul.programming-language-list-item {
-  margin-left: 270px;
+  margin-left: 16.8rem;
   color: red;
 }
 
@@ -154,21 +154,43 @@ ul.programming-language-list-item {
   color: red;
 }
 
-@media (max-width: 900px) {
-  ul.programming-language-list-item {
-    color: red;
+@media (max-width: 1000px) {
+  .middle-container {
     margin: 0px;
   }
 
-  h3,
+  .bottom-container {
+    padding: 3% 0 0 2%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin: 0px;
+  }
+
   h2 {
-    text-align: center;
+    margin: 0px;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+
+  h3 {
+    margin: 0px;
+    font-size: 2rem;
+  }
+
+  ul.programming-language-list-item {
+    color: red;
+    margin: 0px;
+    width: 100%;
   }
 
   .light-bulb-img {
     padding-bottom: 20px;
-    /* margin-left: 20px; */
+    margin-left: 0px;
+    margin-right: 0px;
     float: none;
+    width: 90%;
   }
 
   p.introduction {
@@ -178,9 +200,63 @@ ul.programming-language-list-item {
   .quality-img {
     float: none;
     margin-left: 0px;
+    margin-right: 0px;
+    width: 90%;
   }
 
   .cert-list {
     margin: 0px;
+    width: 100%;
+  }
+
+  .internal-cert {
+    margin: 0px;
+  }
+
+  .top-cloud {
+    width: 20%;
+    position: absolute;
+    right: 60%;
+    top: 10%;
+    bottom: 0.5%;
+  }
+
+  .bottom-cloud {
+    width: 20%;
+    position: absolute;
+    left: 58%;
+    bottom: 33%;
+  }
+
+  #mountain-img {
+    width: 85%;
+  }
+
+  #myPhoto {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .photo-description {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  .contact-message {
+    width: 100%;
+  }
+
+  div .contact-message {
+    width: 100%;
+    margin: 25px auto 30px;
+    line-height: 1.5;
+  }
+
+  .btn {
+    margin-bottom: 30px;
+  }
+
+  .bottom-container {
+    height: 0.5%;
   }
 }
