@@ -150,6 +150,10 @@ ul.programming-language-list-item {
   color: red;
 }
 
+.cert-list {
+  color: red;
+}
+
 @media (max-width: 900px) {
   ul.programming-language-list-item {
     color: red;
@@ -179,8 +183,4 @@ ul.programming-language-list-item {
   .cert-list {
     margin: 0px;
   }
-}
-
-.cert-list {
-  color: red;
 }
