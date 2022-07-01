@@ -82,7 +82,6 @@ a.cert-list:hover {
 .quality-img {
   float: right;
   margin-left: 30px;
-  width: 30%;
 }
 
 .photo-description {
@@ -149,6 +148,37 @@ div .contact-message {
 ul.programming-language-list-item {
   margin-left: 270px;
   color: red;
+}
+
+@media (max-width: 900px) {
+  ul.programming-language-list-item {
+    color: red;
+    margin: 0px;
+  }
+
+  h3,
+  h2 {
+    text-align: center;
+  }
+
+  .light-bulb-img {
+    padding-bottom: 20px;
+    /* margin-left: 20px; */
+    float: none;
+  }
+
+  p.introduction {
+    text-align: center;
+  }
+
+  .quality-img {
+    float: none;
+    margin-left: 0px;
+  }
+
+  .cert-list {
+    margin: 0px;
+  }
 }
 
 .cert-list {
